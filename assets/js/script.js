@@ -24,5 +24,23 @@ $(document).ready(function(){
     $("#18 .description").val(localStorage.getItem("18"));
     $("#19 .description").val(localStorage.getItem("19"));
     $("#20 .description").val(localStorage.getItem("20"));
-
+     // add rows for more time
+     function timeChange(){
+        var currentHour = moment().hour(); 
+        
+        $('.time-block').each(function(){
+            var idTime = parseInt($(this).attr("id"));
+            if (idTime < currentHour){
+                $(this).addClass("past");
+            } else if (idTime === currentHour){
+                $(this).addClass("present");
+                $(this).removeClass("past");
+            } else {$(this).addClass("future");
+            $(this).removeClass("past");
+            $(this).removeClass("present");
+            }
+        })
+    }
+    timeChange();
+    var timeInterval = setInterval(timeChange, 1000);
 });
