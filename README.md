@@ -7,8 +7,8 @@ The calendar application that let a user to save an task for every hour from 7am
 * jQuery 
 
 ## How to View Website and Repository
-* For Github Repository [Work-Day-Scheduler] (https://github.com/Ymuzhych/Work-Day-Scheduler).
+* For Github Repository [Repository Work-Day-Scheduler](https://github.com/Ymuzhych/Work-Day-Scheduler).
 
-For Live Deployed Site [Work-Day-Scheduler] (https://ymuzhych.github.io/Work-Day-Scheduler/).
+* For Live Deployed Site [Deployed Work-Day-Scheduler](https://ymuzhych.github.io/Work-Day-Scheduler/).
 ## License
 MIT
